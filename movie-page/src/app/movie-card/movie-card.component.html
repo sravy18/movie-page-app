@@ -1,0 +1,7 @@
+<div class="card" (click)="viewMovieDetail(movies.id)">
+    <img [src]="movies.image" class="card-img-top" [alt]="movies.movie" />
+    <div class="card-body">
+      <h5 class="card-title">{{ movies.movie }}</h5>
+      <p class="card-text">Rating: {{ movies.rating }}</p>
+    </div>
+  </div>
